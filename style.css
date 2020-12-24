@@ -13,7 +13,7 @@ body{
     padding: 2rem;
     padding-bottom: 400px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .top-section{
@@ -27,12 +27,11 @@ body{
     display: flex;
     position: relative;
     z-index: 1;
-    margin: 50px 0;
+    margin: 0;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.25rem;
     align-items: center;
     min-height: 0px;
-    background-color: #EA8231;
 }
 
 .section:nth-child(odd){
@@ -70,4 +69,13 @@ img{
     margin-left: 650x;
     margin-top: 70px;
     border-radius: 50%;    
+}
+
+.content{
+    background-color: #EA8231;
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    border-radius: 10%;
 }
